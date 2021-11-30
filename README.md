@@ -1,4 +1,4 @@
-# Undergrad Project – Agro Robot
+# Undergrad Project â€“ Agro Robot
 The main goal of our project is to increase the productivity of crops by using a robotic system. Bangladesh is far behind from modern agricultural system. Traditional agricultural
 the system suffers from labor problems, labor cost, productivity problems, etc. A robot can
 work all day long continuously without any fatigue. So labor problem and its associated
@@ -8,8 +8,8 @@ into three parts fruit picker, field manager, and sky doctor. The fruit picker c
 Fore more detail, click [here](https://www.lus.ac.bd/news/%e0%a6%85%e0%a7%8d%e0%a6%af%e0%a6%be%e0%a6%97%e0%a7%8d%e0%a6%b0%e0%a7%8b-%e0%a6%b0%e0%a7%8b%e0%a6%ac%e0%a6%9f%e0%a6%bf%e0%a6%95-%e0%a6%b8%e0%a6%bf%e0%a6%b7%e0%a7%8d%e0%a6%9f%e0%a7%87%e0%a6%ae/).
 
 #### Video
-<iframe width="560" height="315" src="https://www.youtube.com/embed/odYYKPlxI6A" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe> </br></br>
-<iframe width="560" height="315" src="https://www.youtube.com/embed/Wrg9cnF9nDo" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+[![IMAGE ALT TEXT HERE](https://img.youtube.com/vi/odYYKPlxI6A/3.jpg)](https://www.youtube.com/watch?v=odYYKPlxI6A)
+[![IMAGE ALT TEXT HERE](https://img.youtube.com/vi/Wrg9cnF9nDo/2.jpg)](https://www.youtube.com/watch?v=Wrg9cnF9nDo)
 
 #### Images
 ![fruit](fruit.jpg)
@@ -19,42 +19,43 @@ Fore more detail, click [here](https://www.lus.ac.bd/news/%e0%a6%85%e0%a7%8d%e0%
 ## Description
 
 ### Implementation Summary
-* Fruit-picker robot: Implemented using Arduino Mega and Arduino Nano microcontroller board.
-* Video processing: Implemented using FPV camera and MATLAB.
+* Fruit-picker robot: Implemented using `Arduino Mega` and `Arduino Nano` microcontroller board.
+* Video processing: Implemented using FPV camera and `MATLAB`.
 * Field manager: Implemented using quad-copter, temperature sensor, and humidity sensor.
-* Server: Implemented using XAMPP.
+* Server: Implemented using `XAMPP-PHP`.
 
 ### Components list:
 
-*	FPV CAMERA – 1 pc
-*	FPV TX-RX(5.8Ghz 200mW Wireless AV TX+RX Combo TS351+RC305) – 1 pair
-*	AV TO USB CONVERTER	(Easy Cap 2.0) – 1 pc
-*	RADIO COMMUNICATION MODULE (Nrf-24l01 transceiver) – 7 pc
-*	ARDUINO MEGA (MEGA-2560) – 2 pc
-*	ARDUINO NANO (Nano V3.0 (Atmel 328P)) – 3 pc
-*	DC MOTOR (12V, 200 RPM) – 4 pc
-*	WHEEL – 4 pc
-*	SERVO (MG90-S	, 2.5kg torque digital servo) – 4 pc
-*	SERVO (MG995,	10kg torque digital servo) – 2 pc
-*	SERVO (MG996,	13kg torque digital servo) – 1 pc
-*	SERVO (S8203, 33kg high toque digital servo) – 1 pc
-*	TEMPARATURE & HUMITIDY SENSOR (HSM-20G Humidity sensor module) – 1 pc
-*	BLDC MOTOR (EMAX 820KV) – 4 pc
-*	ESC (30A ESC) – 4 pc
-*	PROPELLER (10 x 4.5) – 2 set
-*	QUAD FRAME – 1 pc
-*	RADIO CONTROLLER (5-chennel) – 1 pc
-*	SOIL MOISTER SENSOR	(FC-28-C) – 1 pc
-*	WATER PUMP (12V pump) – 2 pc
-*	RELAY (6V) – 3 pc
-*	FLIGHT CONTROLLER (Openpilot CC3D) – 1 pc
-*	BATTERY (Lipo 1800mAh, 11.1V) – 2 pc
+*	FPV CAMERA â€“ 1 pc
+*	FPV TX-RX(5.8Ghz 200mW Wireless AV TX+RX Combo TS351+RC305) â€“ 1 pair
+*	AV TO USB CONVERTER	(Easy Cap 2.0) â€“ 1 pc
+*	RADIO COMMUNICATION MODULE (Nrf-24l01 transceiver) â€“ 7 pc
+*	ARDUINO MEGA (MEGA-2560) â€“ 2 pc
+*	ARDUINO NANO (Nano V3.0 (Atmel 328P)) â€“ 3 pc
+*	DC MOTOR (12V, 200 RPM) â€“ 4 pc
+*	WHEEL â€“ 4 pc
+*	SERVO (MG90-S	, 2.5kg torque digital servo) â€“ 4 pc
+*	SERVO (MG995,	10kg torque digital servo) â€“ 2 pc
+*	SERVO (MG996,	13kg torque digital servo) â€“ 1 pc
+*	SERVO (S8203, 33kg high toque digital servo) â€“ 1 pc
+*	TEMPARATURE & HUMITIDY SENSOR (HSM-20G Humidity sensor module) â€“ 1 pc
+*	BLDC MOTOR (EMAX 820KV) â€“ 4 pc
+*	ESC (30A ESC) â€“ 4 pc
+*	PROPELLER (10 x 4.5) â€“ 2 set
+*	QUAD FRAME â€“ 1 pc
+*	RADIO CONTROLLER (5-chennel) â€“ 1 pc
+*	SOIL MOISTER SENSOR	(FC-28-C) â€“ 1 pc
+*	WATER PUMP (12V pump) â€“ 2 pc
+*	RELAY (6V) â€“ 3 pc
+*	FLIGHT CONTROLLER (Openpilot CC3D) â€“ 1 pc
+*	BATTERY (Lipo 1800mAh, 11.1V) â€“ 2 pc
 
 
 
 
 ### Fruit-picker
 ![fp-1](fp_1.jpg)
+
 Autonomous fruit picker is a robot that can pick fruits automatically. This robot has a container by which it carries the picking fruit. 
 
 #### Construction details of the Fruit-picker
@@ -65,7 +66,7 @@ Fruit picker is a one kind of autonomous robot. We have made this robot by 5 mm 
 #### Mechanism
 ![mechanism](mechanism.jpg)
 
-Fruit picker is designed for a specific fruit. At this moment, this robot can recognize only tomato through its color detection method. When the robot is reached at operation mode then it tries to communicate with control panel by 2.4 GHz radio link with a fixed address. If the control panel’s address matches with the fixed address of the robot then the radio link builds a communication between the robot & control panel. Control panel has a control box & a laptop. This laptop has a software by which it can communicate with robot as well as the control box can communicate with the robot. At the time of manual operation the operator can operate the robot using a joystick of the control box or using the software of the laptop. When the operator selects the autonomous mode, the robot enters the picking mode. In autonomous mode, the robot sends a video signal to control panel which is received by a video receiver. A converter is located into the control panel which converts the video signal into digital video input signal. This converted signal is send to the software of the laptop. The resolution of the video input signal is 720/480 PX. After that the software analysis the video signal through color detection method. In video analysis if it finds any rip tomato which color is red then it calculates the fruit’s position & after that it finds the fruit’s exact location. Then the software sends the location of the fruit to the robot. Just after the robot moves towards the fruit location. When the robot is reached in front of the fruit then the robot hold the fruit by its arm, cuts the peduncle of the fruit, pick it & finally drop it to the fruit container. For completing this fruit picking process, the robot takes approximately 30 sec. The overall process will be repeated continuously after 30 sec. When the fruit container is fully loaded with fruit, if the operator wants he can unload the fruit to the container.
+Fruit picker is designed for a specific fruit. At this moment, this robot can recognize only tomato through its color detection method. When the robot is reached at operation mode then it tries to communicate with control panel by 2.4 GHz radio link with a fixed address. If the control panelâ€™s address matches with the fixed address of the robot then the radio link builds a communication between the robot & control panel. Control panel has a control box & a laptop. This laptop has a software by which it can communicate with robot as well as the control box can communicate with the robot. At the time of manual operation the operator can operate the robot using a joystick of the control box or using the software of the laptop. When the operator selects the autonomous mode, the robot enters the picking mode. In autonomous mode, the robot sends a video signal to control panel which is received by a video receiver. A converter is located into the control panel which converts the video signal into digital video input signal. This converted signal is send to the software of the laptop. The resolution of the video input signal is 720/480 PX. After that the software analysis the video signal through color detection method. In video analysis if it finds any rip tomato which color is red then it calculates the fruitâ€™s position & after that it finds the fruitâ€™s exact location. Then the software sends the location of the fruit to the robot. Just after the robot moves towards the fruit location. When the robot is reached in front of the fruit then the robot hold the fruit by its arm, cuts the peduncle of the fruit, pick it & finally drop it to the fruit container. For completing this fruit picking process, the robot takes approximately 30 sec. The overall process will be repeated continuously after 30 sec. When the fruit container is fully loaded with fruit, if the operator wants he can unload the fruit to the container.
 
 ### Sky doctor
 ![sky](sky.jpg)

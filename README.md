@@ -7,9 +7,6 @@ into three parts fruit picker, field manager, and sky doctor. The fruit picker c
 
 Fore more detail, click [here](https://www.lus.ac.bd/news/%e0%a6%85%e0%a7%8d%e0%a6%af%e0%a6%be%e0%a6%97%e0%a7%8d%e0%a6%b0%e0%a7%8b-%e0%a6%b0%e0%a7%8b%e0%a6%ac%e0%a6%9f%e0%a6%bf%e0%a6%95-%e0%a6%b8%e0%a6%bf%e0%a6%b7%e0%a7%8d%e0%a6%9f%e0%a7%87%e0%a6%ae/).
 
-#### Video
-[![IMAGE ALT TEXT HERE](https://img.youtube.com/vi/odYYKPlxI6A/3.jpg)](https://www.youtube.com/watch?v=odYYKPlxI6A)
-[![IMAGE ALT TEXT HERE](https://img.youtube.com/vi/Wrg9cnF9nDo/2.jpg)](https://www.youtube.com/watch?v=Wrg9cnF9nDo)
 
 #### Images
 ![fruit](fruit.jpg)
